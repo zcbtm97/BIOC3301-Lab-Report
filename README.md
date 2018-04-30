@@ -1,4 +1,4 @@
-### BIOC3301-Lab-Report
+## BIOC3301-Lab-Report-Workflow
 
 1.	Download sequencing data to Cartesius home directory. 
 
