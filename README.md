@@ -10,7 +10,7 @@
 
 3.	join_paired_ends.py
 
- Using SeqPrep, this script joins the paired end read files to generate a joined read and an updated Index file for demultiplexing
+ Using SeqPrep, this script joins the paired end read files to generate a joined read and an updated Index file for demultiplexing.
 
 4.  split_libraries_fastq.py 
 
@@ -41,4 +41,4 @@
  This script analyses the statistical significance of variables on diversity, generating R and P values. 
 
 
-# The "AdditionalAnalysis" folder contains other scripts, which were run to further analyse and assess sample data.  
+# The "AdditionalAnalysis" folder contains other scripts, which were run to further analyse and assess sample data. The results of these scripts were only used to further assess samples and are not included in my report.
