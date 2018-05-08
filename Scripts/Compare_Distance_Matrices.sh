@@ -12,6 +12,9 @@ source deactivate
 echo "loading virtualenv"
 source activate qiime1
 
+#module load r for statistical test
+module load R
+
 # setting temporary directory
 export TMPDIR=~/qiime_tmp
 
