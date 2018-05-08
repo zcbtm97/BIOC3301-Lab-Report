@@ -19,7 +19,5 @@ export TMPDIR=~/qiime_tmp
 
 compare_alpha_diversity.py -i cdout2/arare_max409/alpha_div_collated/PD_whole_tree.txt -m map.tsv -c SamplePh -o furtheranalysis/comparealphaPHPD
 
-compare_alpha_diversity.py -i cdout2/arare_max409/alpha_div_collated/PD_whole_tree.txt -m map.tsv -c SamplePhosphorus -o furtheranalysis/comparealphaPPD
-
 # deactivate qiime
 source deactivate
