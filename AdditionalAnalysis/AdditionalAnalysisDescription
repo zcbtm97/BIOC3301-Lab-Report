@@ -1,4 +1,4 @@
 1. heatmap.sh provides visualisation of the phyla distribution across samples.
-2. gtest.sh analyses the statistical significance of a variable in determining different OTU abundances between samples.
+2. gtest.sh analyses the statistical significance of a variable in causing different OTU abundances between samples.
 3. boxplots.sh allows visualisation of phylogenetic distances between and within sample groups.
 4. otunetwork.sh provides files required for cytoscape visualisation of OTUs shared between samples. 
