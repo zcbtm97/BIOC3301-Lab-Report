@@ -30,7 +30,7 @@
 
 8.	compare_alpha_diversity.py 
 
- This script performs a non-parametric two-sample t-test, to assess alpha diversity of samples based on differences in a specific variable.
+ This script performs a non-parametric two-sample t-test, to assess alpha diversity of samples based on differences in a specific variable. This generates t and p values. 
 
 9.	compare_distance_matrices.py
 
