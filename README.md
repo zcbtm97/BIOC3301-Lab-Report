@@ -2,20 +2,43 @@
 
 1.	Download sequencing data to Cartesius home directory. 
 
-2.	Validate the mapping file with validate_mapping_file.py.
+This will provide the mapping file and also the Index, Read1 and Read2 fastq files for downstream analysis. 
 
-3.	Join paired-end reads with SeqPrep, using join_paired_ends.py to generate new read and updated index Fastq files for downstream analysis. 
+2.  Validate_mapping_file.py
 
-4.	Demultiplex and quality filter data, based on unique barcodes with phred quality score 19, with split_libraries_fastq.py. 
+This will validate the sample metadata in the mapping file.
 
-5.	Pick OTUs with pick_closed_reference_otus.py, against Greengenes database, to generate BIOM table. 
+3.	join_paired_ends.py
 
-6.	Core diversity analysis with core_diversity_analyses.py, to generate taxa summaries, rarefaction curves for alpha diversity and PCoA plots for beta diversity.
+Using SeqPrep, this script joins the paired end read files to generate a joined read and an updated Index file for demultiplexing
 
-7.	Convert 3D PCoA plots to 2D using make_2D_plots.py to visualize beta diversity.
+4.  split_libraries_fastq.py 
 
-8.	Compare alpha diversity, using a non-parametric two-sample t-test, with compare_alpha_diversity.py. 
+This script demultiplexes and quality filters the illumina Fastq sequencing data, and seperates samples using the unique barcodes, with phred quality score 19. 
 
-9.	Compare weighted and un-weighted UniFrac distance matrices using a partial mantel test, with compare_distance_matrices.py
+5.	pick_closed_reference_otus.py
 
-10.	Compare categories with compare_categories.py to analyse statistical significance of variables on diversity. 
+This script allows OTU picking against the closed reference Greengenes database, to generate a BIOM table for further analysis. 
+
+6.	core_diversity_analyses.py
+
+This script performs analysis of alpha and beta diversity to generate rarefaction curves and PCoA plots, respectively, in addition to generating taxa summaries.
+
+7.	make_2D_plots.py
+
+This script converts 3D PCoA plots to 2D to allow improved visualization of beta diversity.
+
+8.	compare_alpha_diversity.py 
+
+This script performs a non-parametric two-sample t-test, to assess alpha diversity of samples.
+
+9.	compare_distance_matrices.py
+
+This script compares weighted and un-weighted UniFrac distance matrices using a partial mantel test, to produce R and P values.
+
+10.	compare_categories.py
+
+This script analyses the statistical significance of variables on diversity, generating R and P values. 
+
+
+# The "AdditionalAnalysis" folder contains other scripts which were run to determine correlations between samples. These scripts were used to analyse the data and the results will not be included in the report.
