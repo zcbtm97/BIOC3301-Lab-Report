@@ -1,4 +1,4 @@
-## BIOC3301-Lab-Report-Workflow
+## BIOC3301-Lab-Report-Data-Analysis-Workflow
 
 1.	Download sequencing data to Cartesius home directory. 
 
@@ -41,4 +41,4 @@ This script compares weighted and un-weighted UniFrac distance matrices using a 
 This script analyses the statistical significance of variables on diversity, generating R and P values. 
 
 
-# The "AdditionalAnalysis" folder contains other scripts which were run to determine correlations between samples. These scripts were used to analyse the data and the results will not be included in the report.
+# The "AdditionalAnalysis" folder contains other scripts, which were run to further analyse and assess sample data.  
